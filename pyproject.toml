@@ -1,0 +1,11 @@
+[project]
+name = "nutri-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "flask[async]>=3.1.0",
+    "google-adk>=0.4.0",
+    "python-dotenv>=1.1.0",
+]
